@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>To Do List</title>
+    <script src="script1.js" defer></script>
+    <style>
+      li {
+        list-style-type: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>TodoMatic</h1>
+    <form id="todo-form">
+      <label for="todo-input">
+        What needs to be done?
+      </label>
+      <input 
+        id="todo-input"
+        type="text"
+        name="mozTodoDemoItemName"
+        autocomplete="on" />
+      <button type="submit">
+        Add
+      </button>
+    </form>
+    <ul id="todo-list"></ul>
+  </body>
+
+</html>
